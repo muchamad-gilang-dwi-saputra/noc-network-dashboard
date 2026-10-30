@@ -24,5 +24,17 @@ Syarat utama: Pastiin udah install Python di Windows kamu.
 
 1. Clone repo ini:
    ```bash
-   git clone [https://github.com/username-kamu/noc-network-dashboard.git](https://github.com/username-kamu/noc-network-dashboard.git)
+   [git clone [https://github.com/username-kamu/noc-network-dashboard.git](https://github.com/username-kamu/noc-network-dashboard.git)](https://github.com/muchamad-gilang-dwi-saputra/noc-network-dashboard)
    cd noc-network-dashboard
+
+2. Install library yang dibutuhin:
+```bash
+py -3.12 -m pip install streamlit plotly pandas psutil
+
+```
+3. Jalanin aplikasinya:
+```
+py -3.12 -m streamlit run app.py
+
+```
+4. Selesai! Nanti otomatis kebuka di browser
